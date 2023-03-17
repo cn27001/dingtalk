@@ -133,7 +133,7 @@ type UserInfoDetail struct {
 
 	// 当用户来自于关联组织时的关联信息
 	UnionOrg `json:"union_emp_ext"`
-	Email    bool `json:"email"`
+	Email    string `json:"email"`
 }
 
 type LeaderInDept struct {
