@@ -1,5 +1,4 @@
-module github.com/zhaoyunxing92/dingtalk/v2
-
+module github.com/cn27001/dingtalk
 go 1.15
 
 require (
