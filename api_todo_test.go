@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/cn27001/dingtalk/request"
 	"github.com/stretchr/testify/assert"
-	"github.com/zhaoyunxing92/dingtalk/v2/request"
 )
 
 func TestDingTalk_CreateTodo(t *testing.T) {

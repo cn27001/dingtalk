@@ -17,8 +17,8 @@
 package request
 
 import (
-	"github.com/zhaoyunxing92/dingtalk/v2/constant/file"
-	"github.com/zhaoyunxing92/dingtalk/v2/constant/policy"
+	"github.com/cn27001/dingtalk/constant/file"
+	"github.com/cn27001/dingtalk/constant/policy"
 )
 
 type CreateDriveSpacesFiles struct {
@@ -73,12 +73,12 @@ func (b *createDriveSpacesFilesBuilder) SetMediaId(mediaId string) *createDriveS
 	return b
 }
 
-//SetConflictPolicy 文件名称冲突策略，取值：
+// SetConflictPolicy 文件名称冲突策略，取值：
 //
-//autoRename：自动重命名
-//overwrite：覆写
-//returnExisting：返回已存在文件
-//returnError：报错
+// autoRename：自动重命名
+// overwrite：覆写
+// returnExisting：返回已存在文件
+// returnError：报错
 func (b *createDriveSpacesFilesBuilder) SetConflictPolicy(policy policy.ConflictPolicy) *createDriveSpacesFilesBuilder {
 	b.file.ConflictPolicy = string(policy)
 	return b

@@ -19,7 +19,7 @@ package request
 import (
 	"encoding/json"
 
-	"github.com/zhaoyunxing92/dingtalk/v2/constant/attendance"
+	"github.com/cn27001/dingtalk/constant/attendance"
 )
 
 type CreateAttendanceGroup struct {

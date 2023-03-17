@@ -19,8 +19,8 @@ package dingtalk
 import (
 	"net/http"
 
-	"github.com/zhaoyunxing92/dingtalk/v2/constant"
-	"github.com/zhaoyunxing92/dingtalk/v2/domain"
+	"github.com/cn27001/dingtalk/constant"
+	"github.com/cn27001/dingtalk/domain"
 )
 
 // Translate：文本翻译

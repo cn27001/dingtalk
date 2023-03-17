@@ -19,8 +19,8 @@ package request
 import (
 	"testing"
 
+	"github.com/cn27001/dingtalk/domain/message"
 	"github.com/stretchr/testify/assert"
-	"github.com/zhaoyunxing92/dingtalk/v2/domain/message"
 )
 
 func TestNewSendMessage(t *testing.T) {

@@ -21,10 +21,10 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/zhaoyunxing92/dingtalk/v2/constant"
-	"github.com/zhaoyunxing92/dingtalk/v2/domain/message"
-	"github.com/zhaoyunxing92/dingtalk/v2/request"
-	"github.com/zhaoyunxing92/dingtalk/v2/response"
+	"github.com/cn27001/dingtalk/constant"
+	"github.com/cn27001/dingtalk/domain/message"
+	"github.com/cn27001/dingtalk/request"
+	"github.com/cn27001/dingtalk/response"
 )
 
 // CreateChat 创建群

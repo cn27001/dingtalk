@@ -19,9 +19,9 @@ package dingtalk
 import (
 	"testing"
 
+	"github.com/cn27001/dingtalk/domain/message"
+	"github.com/cn27001/dingtalk/request"
 	"github.com/stretchr/testify/assert"
-	"github.com/zhaoyunxing92/dingtalk/v2/domain/message"
-	"github.com/zhaoyunxing92/dingtalk/v2/request"
 )
 
 func TestDingTalk_CreateChat(t *testing.T) {

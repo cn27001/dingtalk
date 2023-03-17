@@ -17,7 +17,7 @@
 package request
 
 import (
-	"github.com/zhaoyunxing92/dingtalk/v2/constant/order"
+	"github.com/cn27001/dingtalk/constant/order"
 )
 
 type GetDriveSpacesFiles struct {

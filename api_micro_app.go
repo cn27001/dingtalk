@@ -22,10 +22,10 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/zhaoyunxing92/dingtalk/v2/constant"
-	"github.com/zhaoyunxing92/dingtalk/v2/domain"
-	"github.com/zhaoyunxing92/dingtalk/v2/request"
-	"github.com/zhaoyunxing92/dingtalk/v2/response"
+	"github.com/cn27001/dingtalk/constant"
+	"github.com/cn27001/dingtalk/domain"
+	"github.com/cn27001/dingtalk/request"
+	"github.com/cn27001/dingtalk/response"
 )
 
 // GetMicroAppList 获取应用列表
@@ -58,7 +58,7 @@ func (ding *DingTalk) GetMicroAppVisibleScopes(agentId int) (scopes response.Mic
 		request.NewMicroAppVisibleScopes(agentId), &scopes)
 }
 
-//GetUserMicroAppVisibleScopes 获取员工可见的应用列表
+// GetUserMicroAppVisibleScopes 获取员工可见的应用列表
 func (ding *DingTalk) GetUserMicroAppVisibleScopes(userId string) (scopes response.MicroAppList, err error) {
 	query := url.Values{}
 	query.Set("userid", userId)

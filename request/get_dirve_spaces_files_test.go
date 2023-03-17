@@ -19,8 +19,8 @@ package request
 import (
 	"testing"
 
+	"github.com/cn27001/dingtalk/constant/order"
 	"github.com/stretchr/testify/assert"
-	"github.com/zhaoyunxing92/dingtalk/v2/constant/order"
 )
 
 func TestNewGetDriveSpacesFiles(t *testing.T) {

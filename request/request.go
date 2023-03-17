@@ -20,7 +20,7 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/zhaoyunxing92/dingtalk/v2/constant/employee"
+	"github.com/cn27001/dingtalk/constant/employee"
 )
 
 // removeStringDuplicates 去除重复的item

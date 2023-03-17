@@ -19,8 +19,8 @@ package request
 import (
 	"testing"
 
+	"github.com/cn27001/dingtalk/constant/file"
 	"github.com/stretchr/testify/assert"
-	"github.com/zhaoyunxing92/dingtalk/v2/constant/file"
 )
 
 func TestNewUploadFile(t *testing.T) {

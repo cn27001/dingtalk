@@ -19,8 +19,8 @@ package dingtalk
 import (
 	"net/http"
 
-	"github.com/zhaoyunxing92/dingtalk/v2/constant"
-	"github.com/zhaoyunxing92/dingtalk/v2/response"
+	"github.com/cn27001/dingtalk/constant"
+	"github.com/cn27001/dingtalk/response"
 )
 
 // GetCorpDingIndex 获取企业最新钉钉指数信息

@@ -17,7 +17,7 @@
 package response
 
 import (
-	"github.com/zhaoyunxing92/dingtalk/v2/request"
+	"github.com/cn27001/dingtalk/request"
 )
 
 type UserDetail struct {
@@ -133,7 +133,7 @@ type UserInfoDetail struct {
 
 	// 当用户来自于关联组织时的关联信息
 	UnionOrg `json:"union_emp_ext"`
-	Email bool `json:"email"`
+	Email    bool `json:"email"`
 }
 
 type LeaderInDept struct {

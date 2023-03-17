@@ -19,9 +19,9 @@ package dingtalk
 import (
 	"testing"
 
+	"github.com/cn27001/dingtalk/constant/employee"
+	"github.com/cn27001/dingtalk/request"
 	"github.com/stretchr/testify/assert"
-	"github.com/zhaoyunxing92/dingtalk/v2/constant/employee"
-	"github.com/zhaoyunxing92/dingtalk/v2/request"
 )
 
 func TestDingTalk_GetHrmEmployee(t *testing.T) {

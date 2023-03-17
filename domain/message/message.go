@@ -17,7 +17,7 @@
 package message
 
 import (
-	"github.com/zhaoyunxing92/dingtalk/v2/domain"
+	"github.com/cn27001/dingtalk/domain"
 )
 
 type message struct {

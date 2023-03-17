@@ -19,7 +19,7 @@ package request
 import (
 	"strings"
 
-	"github.com/zhaoyunxing92/dingtalk/v2/constant/employee"
+	"github.com/cn27001/dingtalk/constant/employee"
 )
 
 type GetHrmEmployee struct {

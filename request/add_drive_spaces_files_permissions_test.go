@@ -19,9 +19,9 @@ package request
 import (
 	"testing"
 
+	"github.com/cn27001/dingtalk/constant/member"
+	"github.com/cn27001/dingtalk/constant/role"
 	"github.com/stretchr/testify/assert"
-	"github.com/zhaoyunxing92/dingtalk/v2/constant/member"
-	"github.com/zhaoyunxing92/dingtalk/v2/constant/role"
 )
 
 func TestNewAddDriveSpacesFilesPermissions(t *testing.T) {

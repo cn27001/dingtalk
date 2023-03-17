@@ -21,7 +21,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/zhaoyunxing92/dingtalk/v2/domain/message"
+	"github.com/cn27001/dingtalk/domain/message"
 )
 
 func TestNewCorpConvMessage(t *testing.T) {

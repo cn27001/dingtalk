@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/zhaoyunxing92/dingtalk/v2/constant/language"
+	"github.com/cn27001/dingtalk/constant/language"
 )
 
 type UpdateUser struct {

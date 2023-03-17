@@ -17,7 +17,7 @@
 package request
 
 import (
-	"github.com/zhaoyunxing92/dingtalk/v2/domain/message"
+	"github.com/cn27001/dingtalk/domain/message"
 )
 
 type SendChatMessage struct {

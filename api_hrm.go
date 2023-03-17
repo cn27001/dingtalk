@@ -19,10 +19,10 @@ package dingtalk
 import (
 	"net/http"
 
-	"github.com/zhaoyunxing92/dingtalk/v2/constant"
-	"github.com/zhaoyunxing92/dingtalk/v2/constant/employee"
-	"github.com/zhaoyunxing92/dingtalk/v2/request"
-	"github.com/zhaoyunxing92/dingtalk/v2/response"
+	"github.com/cn27001/dingtalk/constant"
+	"github.com/cn27001/dingtalk/constant/employee"
+	"github.com/cn27001/dingtalk/request"
+	"github.com/cn27001/dingtalk/response"
 )
 
 // GetHrmEmployee 获取在职员工列表

@@ -21,7 +21,7 @@ package domain
 //	"errors"
 //	translator "github.com/go-playground/universal-translator"
 //	"github.com/go-playground/validator/v10"
-//	"github.com/zhaoyunxing92/dingtalk/v2/domain/message"
+//	"github.com/cn27001/dingtalk/domain/message"
 //	"strings"
 //)
 //

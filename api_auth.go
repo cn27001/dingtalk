@@ -22,11 +22,11 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/cn27001/dingtalk/constant"
+	"github.com/cn27001/dingtalk/crypto"
+	"github.com/cn27001/dingtalk/request"
+	"github.com/cn27001/dingtalk/response"
 	"github.com/pkg/errors"
-	"github.com/zhaoyunxing92/dingtalk/v2/constant"
-	"github.com/zhaoyunxing92/dingtalk/v2/crypto"
-	"github.com/zhaoyunxing92/dingtalk/v2/request"
-	"github.com/zhaoyunxing92/dingtalk/v2/response"
 )
 
 // GetAuthInfo 获取企业授权信息

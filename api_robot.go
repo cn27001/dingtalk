@@ -26,8 +26,8 @@ import (
 	translator "github.com/go-playground/universal-translator"
 	"github.com/go-playground/validator/v10"
 
+	"github.com/cn27001/dingtalk/domain"
 	zh_trans "github.com/go-playground/validator/v10/translations/zh"
-	"github.com/zhaoyunxing92/dingtalk/v2/domain"
 )
 
 type Robot struct {

@@ -21,7 +21,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/zhaoyunxing92/dingtalk/v2/constant/employee"
+	"github.com/cn27001/dingtalk/constant/employee"
 )
 
 type HrmCreateEmployee struct {

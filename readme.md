@@ -20,7 +20,7 @@
 ## 怎么使用
 
 ```shell
-go get github.com/zhaoyunxing92/dingtalk/v2
+go get github.com/cn27001/dingtalk
 ```
 
 ```go

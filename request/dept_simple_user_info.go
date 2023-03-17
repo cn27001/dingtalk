@@ -17,8 +17,8 @@
 package request
 
 import (
-	"github.com/zhaoyunxing92/dingtalk/v2/constant/language"
-	"github.com/zhaoyunxing92/dingtalk/v2/constant/order"
+	"github.com/cn27001/dingtalk/constant/language"
+	"github.com/cn27001/dingtalk/constant/order"
 )
 
 // DeptSimpleUserInfo 获取部门用户基础信息
@@ -62,19 +62,19 @@ func NewDeptSimpleUserInfo(deptId, cursor, size int) *deptSimpleUserInfoBuilder 
 	return &deptSimpleUserInfoBuilder{du: &DeptSimpleUserInfo{DeptId: deptId, Cursor: cursor, Size: size}}
 }
 
-//SetOrderField 部门成员的排序规则：
+// SetOrderField 部门成员的排序规则：
 //
-//entry_asc：代表按照进入部门的时间升序。
+// entry_asc：代表按照进入部门的时间升序。
 //
-//entry_desc：代表按照进入部门的时间降序。
+// entry_desc：代表按照进入部门的时间降序。
 //
-//modify_asc：代表按照部门信息修改时间升序。
+// modify_asc：代表按照部门信息修改时间升序。
 //
-//modify_desc：代表按照部门信息修改时间降序。
+// modify_desc：代表按照部门信息修改时间降序。
 //
-//custom：代表用户定义(未定义时按照拼音)排序。
+// custom：代表用户定义(未定义时按照拼音)排序。
 //
-//默认值：custom。
+// 默认值：custom。
 func (dub *deptSimpleUserInfoBuilder) SetOrderField(order order.DeptOrder) *deptSimpleUserInfoBuilder {
 	dub.du.OrderField = string(order)
 	return dub

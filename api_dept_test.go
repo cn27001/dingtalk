@@ -19,10 +19,10 @@ package dingtalk
 import (
 	"testing"
 
-	"github.com/zhaoyunxing92/dingtalk/v2/constant/language"
+	"github.com/cn27001/dingtalk/constant/language"
 
+	"github.com/cn27001/dingtalk/request"
 	"github.com/stretchr/testify/assert"
-	"github.com/zhaoyunxing92/dingtalk/v2/request"
 )
 
 func TestDingTalk_GetDeptSimpleUserInfo(t *testing.T) {

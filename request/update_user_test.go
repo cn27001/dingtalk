@@ -19,7 +19,7 @@ package request
 import (
 	"testing"
 
-	"github.com/zhaoyunxing92/dingtalk/v2/constant/language"
+	"github.com/cn27001/dingtalk/constant/language"
 )
 
 func TestNewUpdateUser(t *testing.T) {
